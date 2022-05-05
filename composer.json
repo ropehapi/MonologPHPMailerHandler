@@ -1,0 +1,20 @@
+{
+    "name": "ropehapi/monolog-php-mailer-handler",
+    "description": "PHPMailer Monolog Handler",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ropehapi\\MonologPhpMailerHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ropehapi",
+            "email": "ropehapi@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.5",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
